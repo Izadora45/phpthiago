@@ -1,12 +1,12 @@
 <?php
-$no = ("Digite o nome do livro: ");
-$au = ("Digite o nome do autor: ");
-$ed = ("Digite a editora do livro: ");
+$nome = ("Digite o nome do livro: ");
+$autor = ("Digite o nome do autor: ");
+$editora = ("Digite a editora do livro: ");
 
 $livro = [
-    "titulo"  => "$no",
-    "autor"   => "$au",
-    "editora" => "$ed"
+    "titulo"  => "$nome",
+    "autor"   => "$autor",
+    "editora" => "$editora"
 ];
 
 

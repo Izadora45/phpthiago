@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #5a2d82;
+    color: white;
+    text-align: center;
+    padding: 24px 0;
+}
+
+header h1 {
+    letter-spacing: 1px;
+}
+
+.nav-bar {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 12px 0;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.nav-bar a:hover {
+    color: #c9a6e8;
+}
+
+
+.hero {
+    min-height: 90vh;
+    background-image: url('fundo.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+.hero-conteudo {
+    max-width: 600px;
+    color: white;
+}
+
+.hero-conteudo h2 {
+    font-size: 2.4rem;
+    margin-bottom: 16px;
+    line-height: 1.3;
+}
+
+.hero-conteudo p {
+    font-size: 1.1rem;
+    margin-bottom: 28px;
+    color: #e6dcf5;
+}
+
+.hero-botao {
+    display: inline-block;
+    background-color: white;
+    color: #5a2d82;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 32px;
+    border-radius: 30px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-botao:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section-prod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+.prod-area {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    padding: 24px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: transform 0.2s ease;
+}
+
+.prod-area:hover {
+    transform: translateY(-4px);
+}
+
+.area-foto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.section-informacao h3 {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.section-informacao .preco {
+    color: #5a2d82;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.section-informacao ul {
+    padding-left: 20px;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.section-informacao ul li {
+    margin-bottom: 4px;
+}
