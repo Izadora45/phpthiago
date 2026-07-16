@@ -1,0 +1,43 @@
+oque é uma class??
+É o molde ou a planta baixa. Ela define como o objeto deve ser construído, mas não é o objeto em si.Exemplo: O desenho técnico de um carro.
+
+oque são os objetos??
+É a instância real criada a partir do molde. É o elemento concreto que você pode usar.Exemplo: O carro físico que sai da fábrica e você pode dirigir.
+
+o que é um atributo?
+Atributo: São as características ou dados que o objeto possui.Exemplo: A cor, o ano e o modelo do carro.
+
+
+oque é uma function?
+Função/Método (function): São as ações ou comportamentos que o objeto pode executar.Exemplo: Acelerar, frear e buzinar.
+
+oque é o this?
+this: É uma palavra-chave que aponta para o próprio objeto que está executando o código no momento. Serve para diferenciar variáveis locais de atributos do objeto.Exemplo: "A cor deste (this) carro específico é azul".
+
+
+oque é o __construct?
+__construct: É o método construtor. É uma função especial executada automaticamente no momento exato em que o objeto nasce. Serve para definir os valores iniciais.Exemplo: Ligar a parte elétrica e testar os painéis assim que o carro é montado.
+
+
+oque é o new??
+new: É o comando de criação. É a ordem dada à fábrica para pegar o molde e construir um objeto real na memória do computador.Exemplo: meuCarro = new Carro();
+
+<< ISSO DAQUI SE CHAMA ENCAPSULAMENTO >>
+
+oque é o private?
+
+oque é o public?
+
+oque é o protected?
+
+
+Herança: Permite que uma classe (filha) herde características e comportamentos de outra classe (pai), evitando a repetição de código
+
+Encapsulamento (Visibilidade)O encapsulamento serve para proteger os dados do objeto, definindo quem pode ver ou alterar as informações através de três níveis:
+
+
+public: Acesso livre. Qualquer parte do sistema pode ler ou alterar essa informação.Exemplo: A cor da lataria do carro (qualquer um na rua consegue ver).
+
+private: Acesso restrito. Apenas o código de dentro da própria classe pode ler ou alterar. Ninguém de fora mexe diretamente.Exemplo: A engrenagem interna do motor (você não mexe nela com as mãos na rua, você usa o pedal para interagir com ela).
+
+protected: Acesso parcial. Apenas a própria classe e as classes filhas (que herdaram dela) podem acessar.
